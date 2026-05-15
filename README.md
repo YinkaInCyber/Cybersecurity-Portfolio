@@ -80,29 +80,29 @@ External access testing was used to evaluate network accessibility and configura
 
 Challenges Faced:
 
-Initial difficulty accessing the web server via browser
+- Initial difficulty accessing the web server via browser
 
-Troubleshooting involved checking:
+- Troubleshooting involved checking:
 
-Security group rules
+- Security group rules
 
-Route table configuration
+- Route table configuration
 
-Apache service status
+- Apache service status
 
-Public IP accessibility
+- Public IP accessibility
 
 Key Learnings:
 
-AWS EC2 instance provisioning and management
+- AWS EC2 instance provisioning and management
 
-Linux server administration using Ubuntu
+- Linux server administration using Ubuntu
 
-Web server installation and configuration (Apache)
+- Web server installation and configuration (Apache)
 
-Cloud networking concepts (VPC, Subnets, Internet Gateway)
+- Cloud networking concepts (VPC, Subnets, Internet Gateway)
 
-Basic troubleshooting of cloud infrastructure issues
+- Basic troubleshooting of cloud infrastructure issues
 
 Project Status:
 
