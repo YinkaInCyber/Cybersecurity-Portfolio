@@ -32,7 +32,7 @@
 - SSH (Secure Shell)
 
 - Networking (Route Tables, Internet Gateway)
-- 
+ 
 ## Architecture Overview
 
 The project follows a simple cloud architecture:
@@ -71,40 +71,65 @@ The project follows a simple cloud architecture:
 - Connected to EC2 instance via SSH
   
 4. Web Server Testing
+
 Attempted access via browser using EC2 public IP address
+
 Internal server functionality was confirmed successfully
+
 External access testing was used to evaluate network accessibility and configuration
 
 Challenges Faced:
+
 Initial difficulty accessing the web server via browser
+
 Troubleshooting involved checking:
+
 Security group rules
+
 Route table configuration
+
 Apache service status
+
 Public IP accessibility
 
 Key Learnings:
+
 AWS EC2 instance provisioning and management
+
 Linux server administration using Ubuntu
+
 Web server installation and configuration (Apache)
+
 Cloud networking concepts (VPC, Subnets, Internet Gateway)
+
 Basic troubleshooting of cloud infrastructure issues
 
 Project Status:
+
 ✔ EC2 instance successfully deployed and configured
+
 ✔ Apache web server installed and running
+
 ✔ Security groups correctly configured
+
 ✔ Network setup completed
+
 ⚠ External browser access partially unsuccessful (under troubleshooting)
 
 Author:
+
 Name: Olaniyan Olayinka
+
 Role: Cybersecurity Enthusiast
+
 Focus Areas: SOC Analyst, AWS + Linux 
 
 References
+
 https://docs.aws.amazon.com/ec2/
+
 https://docs.aws.amazon.com/vpc/
+
 https://httpd.apache.org/docs/
 https://www.prestashop.com/en
 
